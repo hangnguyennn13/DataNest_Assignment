@@ -14,8 +14,9 @@ model = joblib.load('model/m1.pkl')
 # load data
 shop = pd.read_csv('data/shop_details.csv')
 
-train = pd.read_csv('train.csv').drop(columns=['Unnamed: 0'])
+train = pd.read_csv('raw_data/prev_3_month.csv')
 train = train[train['date_block_num'].isin(np.arange(BLOCK_NUM-3, BLOCK_NUM))]
+
 train['date'] = pd.to_datetime(train['date'], format='%d.%m.%Y')
 train['month'] = train['date'].dt.month
 
