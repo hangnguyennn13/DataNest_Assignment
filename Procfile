@@ -1,1 +1,1 @@
-web: gunicorn app_prediction:app
+web: python app_prediction.py
