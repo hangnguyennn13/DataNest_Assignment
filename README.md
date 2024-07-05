@@ -1,3 +1,4 @@
+Note: Please click trusted when viewing notebook file since the charts were built using plotly
 # Sample output
 ![Project Image](./sample_output.png)
 
