@@ -2,6 +2,8 @@ from flask import Flask, render_template, request
 import pandas as pd
 import numpy as np
 import joblib
+import xgboost
+from xgboost import XGBRegressor
 
 app = Flask(__name__)
 
