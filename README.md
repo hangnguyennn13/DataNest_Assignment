@@ -1,3 +1,5 @@
+![Project Image](./sample_output.png)
+
 # Task 1: Modeling
 
 ## Summary
